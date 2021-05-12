@@ -1,0 +1,53 @@
+html{
+  font-size: 10px;
+    background: url("C:/Users/THE BEAST/Desktop/internship/webd/JavaScript30-master/01 - JavaScript Drum Kit/background.jpg") bottom center;
+    background-size: cover;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+.container{
+   
+    display: flex;
+    flex:1;
+    min-height: 100vh;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+.key{
+    padding: 1rem .5rem;
+    font-size: 1.5rem;
+    border: .4rem  black solid;
+    border-radius: .5rem;
+    margin: 1rem;
+    background-color : rgb(0,0,0,0.5);
+   text-align: center;
+   color: white;
+   text-shadow: 0 0 .5rem black;
+   transition: all .07s ease-in-out;
+   width:10rem;
+}
+
+kbd{
+    display: block;
+    font-size: 4rem;
+}
+span{
+    font-size:1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
